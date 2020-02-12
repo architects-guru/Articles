@@ -1,0 +1,18 @@
+!includeurl https://raw.githubusercontent.com/inthepocket/plantuml-styles/master/styles.plantuml!0
+
+@startuml
+:Create product request;
+note right
+    e.g. User Action on the UI
+end note
+:Model validation;
+note right
+    e.g. Product uniqueness
+end note
+:Some domain logic;
+:Save to storage;
+note right
+    e.g. Database SQL Server
+end note
+@enduml
+

@@ -1,0 +1,18 @@
+!includeurl https://raw.githubusercontent.com/inthepocket/plantuml-styles/master/styles.plantuml!0
+
+@startuml
+:Get product request;
+:Model validation;
+note right
+    e.g. Access permissions
+end note
+:Read from storage;
+note right
+    e.g. Elastic Search Index
+end note
+:Some projections;
+:Response;
+note right
+  user receives response
+end note
+@enduml
