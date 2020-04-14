@@ -2,9 +2,9 @@
 
 @startuml
 :Get product request;
-:Model validation;
+:Context validation;
 note right
-    e.g. Access permissions
+    e.g. Access permission
 end note
 :Read from storage;
 note right
